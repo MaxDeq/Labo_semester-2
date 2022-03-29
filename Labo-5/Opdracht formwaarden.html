@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/stylewaarden.css">
+    <script type="text/javascript" charset="utf-8"></script>
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <div class="line">
+        <label for="chkIsRoker">Is roker</label>
+        <input type="checkbox" id="chkIsRoker"/>
+    </div>
+
+    <div class="line">
+        <label>Moedertaal</label>
+        <input type="radio" id="rbtMoedertaalNederlands" name="rbtMoedertaal" value="nederlands" checked/><label for="rbtMoedertaalNederlands">Nederlands</label>
+        <input type="radio" id="rbtMoedertaalFrans" name="rbtMoedertaal" value="frans"/><label for="rbtMoedertaalFrans">Frans</label>
+        <input type="radio" id="rbtMoedertaalEngels" name="rbtMoedertaal" value="engels"/><label for="rbtMoedertaalEngels">Engels</label>
+        <input type="radio" id="rbtMoedertaalDuits" name="rbtMoedertaal" value="duits"/><label for="rbtMoedertaalDuits">Duits</label>
+    </div>
+    <div class="line">
+        <label for="selFavorieteBuurland">Favoriete buurland</label>
+        <select id="selFavorieteBuurland">
+            <option>Duitsland</option>
+            <option>Frankrijk</option>
+            <option>Nederland</option>
+            <option>Luxemburg</option>
+        </select>
+    </div>
+
+    <div class="line">
+        <select id="selBestelling" multiple size="6">
+            <option selected> frieten</option>
+            <option>aardappelen</option>
+            <option>melk</option>
+            <option>biefstuk</option>
+            <option>chips</option>
+            <option>krant</option>
+        </select>
+    </div>
+
+    <input type="button" id="btnShow" value="Toon resultaat"/>
+</form>
+
+</body>
+</html>
