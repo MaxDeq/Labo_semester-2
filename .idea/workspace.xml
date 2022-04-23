@@ -32,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Labo-7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Desktop/webdev" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -57,7 +57,8 @@
       <workItem from="1648816474806" duration="928000" />
       <workItem from="1650440239802" duration="1380000" />
       <workItem from="1650643863427" duration="420000" />
-      <workItem from="1650644297533" duration="1496000" />
+      <workItem from="1650644297533" duration="2678000" />
+      <workItem from="1650710556591" duration="335000" />
     </task>
     <servers />
   </component>
