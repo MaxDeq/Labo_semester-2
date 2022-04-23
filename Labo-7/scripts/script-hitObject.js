@@ -16,9 +16,7 @@ const setup = () => {
 }
 
 const startGame = () => {
-
     console.log("startgame")
-
     document.getElementById("btnStart").style.display = "none"
 
     let target = document.getElementById("target")
@@ -43,7 +41,6 @@ const move = () => {
     let nummer = Math.floor(Math.random() * global.IMAGE_COUNT)
 
     if (nummer == 0) {
-
         target.className = "bom"
     } else {
         target.className = ""
@@ -53,16 +50,13 @@ const move = () => {
 
     target.style.left = Math.floor(Math.random() * maxLeft) + "px"
     target.style.top = Math.floor(Math.random() * maxTop) + "px"
-
     global.timeoutId = setTimeout(move, global.MOVE_DELAY)
-};
+}
 
 const gameOver = () => {
     clearTimeout(global.timeoutId)
     alert ("GAME OVER")
-
-
-};
+}
 
 const hit = () => {
     let scoreSpans = document.getElementsByClassName("score")
@@ -75,5 +69,3 @@ const hit = () => {
     move()
 }
 window.addEventListener("load", setup);
-
-
