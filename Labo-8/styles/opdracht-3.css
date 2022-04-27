@@ -1,0 +1,31 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.errorMessage {
+    color:red;
+}
+
+input.invalid {
+    border : solid 1px red;
+}
+
+form label {
+    display : inline-block;
+    width : 6em;
+}
+
+#lstPersonen {
+    width:400px;
+}
+
