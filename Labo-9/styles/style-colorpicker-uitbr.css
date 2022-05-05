@@ -1,0 +1,53 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.slider {
+    vertical-align:middle;
+}
+
+.component span:nth-of-type(2) {
+    display:inline-block;
+    width:3em;
+    text-align:right;
+}
+
+.swatch {
+    display:inline-block;
+    border:solid 1px black;
+    margin:0 0 0 1em;
+    height:4em;
+    width:4em;
+    border-radius: 5px;
+}
+
+.swatch.round {
+    border-radius:5px;
+}
+
+.swatch>input {
+    float:right;
+}
+
+.components {
+    display:inline-block;
+    height:100%;
+}
+
+.colorPicker {
+    display:inline-block;
+    border:solid 5px lightgrey;
+    border-radius:10px;
+    padding:10px;
+}
+
